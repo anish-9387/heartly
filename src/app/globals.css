@@ -26,3 +26,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes glossSweep {
+  0%   { transform: rotate(18deg) translateX(-10%); opacity: 0.55; }
+  50%  { transform: rotate(18deg) translateX(10%);  opacity: 0.85; }
+  100% { transform: rotate(18deg) translateX(-10%); opacity: 0.55; }
+}
+

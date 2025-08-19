@@ -24,17 +24,17 @@ export default function HomePage() {
     </div>
       </div>
 
-      {/* Bottom Wave */}
+      {/* Bottom Wave - It's as svg for now. Convert to code and then add rolling wheel on it also. */}
       <div className="absolute left-0 w-full bottom-8 sm:bottom-4 md:bottom-0">
         <img
           src="/assets/curveline_1.svg"
           alt="wave decoration"
-          className="w-full h-auto"
+          className="w-full h-auto backdrop-blur-3xl"
         />
       </div>
 
       {/* Footer Bar */}
-      <div className="hidden md:flex absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 w-[96%] sm:w-[95%] md:w-[90%] border border-gray-600 rounded-md items-center justify-between gap-4 px-3 sm:px-4 py-2 text-xs sm:text-sm md:text-base bg-black/40 backdrop-blur-sm">
+      {/* <div className="hidden md:flex absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 w-[96%] sm:w-[95%] md:w-[90%] border border-gray-600 rounded-md items-center justify-between gap-4 px-3 sm:px-4 py-2 text-xs sm:text-sm md:text-base bg-black/40 backdrop-blur-sm">
         <a
           href="https://twitter.com/"
           target="_blank"
@@ -58,7 +58,7 @@ export default function HomePage() {
             heartly.design2025@gmail.com
           </a>
         </span>
-      </div>
+      </div> */}
     </section>
   );
 }
