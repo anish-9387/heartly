@@ -4,7 +4,7 @@ import HomePage from "@/components/homepage";
 import AboutUs from "@/components/aboutUs";
 import Services from "@/components/services";
 import Manual from "@/components/manual";
-import Members from "@/components/members";
+
 
 export default function Home() {
   return (
@@ -14,7 +14,6 @@ export default function Home() {
       <AboutUs />
       <Services />
       <Manual />
-      <Members />
     </div>
   );
 }

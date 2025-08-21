@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <section className="relative w-full min-h-screen bg-[linear-gradient(180deg,#240F4C_0%,#020424_20%,#000000_80%)] text-white flex flex-col justify-center overflow-hidden">
+    <section className="relative w-full min-h-screen bg-[linear-gradient(180deg,#240F4C_0%,#020424_20%,#000000_80%)] text-white flex flex-col justify-center overflow-hidden" id="home">
       {/* Heart Logo */}
       <div className="z-2 w-[12rem] sm:w-[14rem] md:w-[22rem] lg:w-[26rem] mx-auto -mt-30 sm:-mt-28 md:-mt-40 lg:-mt-60 flex justify-center mb-10 sm:mb-10">
         <img 
@@ -32,33 +32,6 @@ export default function HomePage() {
           className="w-full h-auto backdrop-blur-3xl"
         />
       </div>
-
-      {/* Footer Bar */}
-      {/* <div className="hidden md:flex absolute bottom-2 sm:bottom-4 left-1/2 -translate-x-1/2 w-[96%] sm:w-[95%] md:w-[90%] border border-gray-600 rounded-md items-center justify-between gap-4 px-3 sm:px-4 py-2 text-xs sm:text-sm md:text-base bg-black/40 backdrop-blur-sm">
-        <a
-          href="https://twitter.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-blue-400 hover:text-blue-500"
-        >
-          <img 
-            src="/assets/twitter.svg" 
-            alt="twitter" 
-            className="w-4 h-4 sm:w-5 sm:h-5" 
-          />
-        </a>
-
-        <span className="flex items-center gap-2 truncate text-[#83798f]">
-          <img 
-            src="/assets/email.png" 
-            alt="" 
-            className="w-4 h-4 sm:w-5 sm:h-5" 
-          />
-          <a href="mailto:heartly.design2025@gmail.com">
-            heartly.design2025@gmail.com
-          </a>
-        </span>
-      </div> */}
     </section>
   );
 }
