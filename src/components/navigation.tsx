@@ -42,13 +42,13 @@ export default function Navigation() {
       {/* Mobile menu drawer */}
       {isOpen && (
         <div className="absolute top-0 left-0 w-full h-screen bg-black/90 flex flex-col items-center justify-center gap-8 text-white sm:hidden z-30">
-          <a href="/" className="text-2xl" onClick={() => setIsOpen(false)}>
+          <a href="#home" className="text-2xl" onClick={() => setIsOpen(false)}>
             Home
           </a>
-          <a href="/aboutUs" className="text-2xl" onClick={() => setIsOpen(false)}>
+          <a href="#about" className="text-2xl" onClick={() => setIsOpen(false)}>
             About Us
           </a>
-          <a href="/" className="text-2xl" onClick={() => setIsOpen(false)}>
+          <a href="#services" className="text-2xl" onClick={() => setIsOpen(false)}>
             Services
           </a>
         </div>
