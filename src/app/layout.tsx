@@ -1,6 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Alexandria, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+
+
+const alexandria = Alexandria({
+  variable: "--font-alexandria",
+  subsets: ["latin"],
+});
+
+export const fonts = {
+  alexandria: alexandria.variable,
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -30,7 +30,7 @@ export default function Services() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 justify-center items-stretch">
 
                     {/* Card 1 */}
-                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-[50px] 
+                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-md
                         rounded-2xl p-8 flex flex-col items-center text-center 
                         shadow-[0_0_20px_rgba(59,130,246,0.5)] relative z-20">
 
@@ -42,38 +42,38 @@ export default function Services() {
                                 className="absolute inset-0 m-auto w-3 h-3"
                             />
                         </div>
-                        <h3 className="text-lg md:text-xl font-bold mt-6">PRIVATE EMOTIONAL SUPPORT</h3>
-                        <p className="text-sm md:text-base mt-3 text-gray-200">
+                        <h3 className="md:text-lg font-medium mt-6">PRIVATE EMOTIONAL SUPPORT</h3>
+                        <p className="text-sm md:text-base mt-3 text-gray-200 font-light">
                             One-on-one voice and chat sessions with complete anonymity and end-to-end encryption -
                             your conversations stay between you and your listener.
                         </p>
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-[50px] 
+                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-md
                         rounded-2xl p-8 flex flex-col items-center text-center 
                         shadow-[0_0_20px_rgba(59,130,246,0.5)] relative z-20">
 
                         <div className="p-4 rounded-2xl border border-[#E0E0E0]/30 w-32 h-28 flex items-center justify-center">
                             <img src="/assets/globe_icon.png" alt="Network" className="w-14" />
                         </div>
-                        <h3 className="text-lg md:text-xl font-bold mt-6">ON-DEMAND GLOBAL LISTENING NETWORK</h3>
-                        <p className="text-sm md:text-base mt-3 text-gray-200">
+                        <h3 className="md:text-lg font-medium mt-6">ON-DEMAND GLOBAL LISTENING NETWORK</h3>
+                        <p className="text-sm md:text-base mt-3 text-gray-200 font-light">
                             Connect instantly to verified listeners worldwide, available 24/7,
                             without logins, borders, or personal data sharing.
                         </p>
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-[50px] 
+                    <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-md
                         rounded-2xl p-8 flex flex-col items-center text-center 
                         shadow-[0_0_20px_rgba(59,130,246,0.5)] relative z-20">
 
                         <div className="p-4 rounded-2xl border border-[#E0E0E0]/30 w-32 h-28 flex items-center justify-center">
                             <img src="/assets/currency.png" alt="Crypto" className="w-14" />
                         </div>
-                        <h3 className="text-lg md:text-xl font-bold mt-6">SECURE, DIRECT CRYPTO PAYMENTS</h3>
-                        <p className="text-sm md:text-base mt-3 text-gray-200">
+                        <h3 className="md:text-lg font-medium mt-6">SECURE, DIRECT CRYPTO PAYMENTS</h3>
+                        <p className="text-sm md:text-base mt-3 text-gray-200 font-light">
                             Pay or earn instantly via smart contracts - no middlemen, no delays,
                             and no platform custody of funds.
                         </p>

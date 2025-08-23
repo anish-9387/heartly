@@ -30,7 +30,7 @@ export default function Navigation() {
       </div>
 
       {/* Hologram Button */}
-      <button className="relative inline-flex items-center justify-center w-[9rem] h-[3rem] rounded-full border border-white/25 text-white font-bold text-sm sm:text-base bg-transparent overflow-hidden cursor-pointer transition-transform duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,.25)_inset,0_8px_30px_rgba(0,0,0,.4),0_0_40px_rgba(0,234,255,.25)] active:translate-y-px active:scale-95 isolate">
+      <button className="relative backdrop-blur-3xl inline-flex items-center justify-center w-[9rem] h-[3rem] rounded-full border border-white/25 text-white font-bold text-sm sm:text-base overflow-hidden cursor-pointer transition-transform duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,.25)_inset,0_8px_30px_rgba(0,0,0,.4),0_0_40px_rgba(0,234,255,.25)] active:translate-y-px active:scale-95 isolate bg-white/10">
         <span
           className="absolute inset-0 w-full h-full opacity-70 z-0 bg-center bg-cover"
           style={{ backgroundImage: "url('/assets/hologram.svg')" }}

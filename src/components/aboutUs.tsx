@@ -23,7 +23,7 @@ export default function AboutUs() {
 
       {/* text block */}
       <div className="text-base sm:text-2xl max-w-full sm:max-w-[40rem] mt-10 sm:mt-[-24rem] ml-6 sm:ml-[42rem]">
-        <p className="tracking-wide sm:tracking-widest leading-relaxed">
+        <p className="tracking-wide sm:tracking-widest leading-relaxed font-light text-right mr-10">
           Heartly is a privacy-first platform for real human connection. We
           enable anonymous, encrypted 1:1 voice and chat support—no accounts, no
           tracking, no borders. Built on blockchain, trust and safety are woven
