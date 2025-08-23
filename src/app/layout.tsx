@@ -9,9 +9,6 @@ const alexandria = Alexandria({
   subsets: ["latin"],
 });
 
-export const fonts = {
-  alexandria: alexandria.variable,
-};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
