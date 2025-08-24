@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <section className="relative w-full min-h-screen bg-[linear-gradient(180deg,#240F4C_0%,#020424_20%,#000000_80%)] text-white flex flex-col justify-center overflow-hidden" id="home">
       {/* Heart Logo */}
-      <div className="z-2 w-[12rem] sm:w-[14rem] md:w-[22rem] lg:w-[26rem] mx-auto -mt-30 sm:-mt-28 md:-mt-40 lg:-mt-60 flex justify-center mb-10 sm:mb-10">
+      <div className="z-20 w-[12rem] sm:w-[14rem] md:w-[22rem] lg:w-[26rem] mx-auto -mt-10 sm:-mt-14 md:-mt-20 lg:-mt-75 flex justify-center lg:-mb-14">
         <img
           src="/assets/heartlyicon.svg"
           alt="logo"
@@ -33,17 +33,15 @@ export default function HomePage() {
         />
       </div>
 
-      <footer className="absolute bottom-8 left-0 right-0 w-[calc(100%-40px)] mx-auto border border-white/30 rounded-md backdrop-blur-sm text-white justify-between items-center px-6 py-4 hidden sm:flex">
+      <footer className="absolute bottom-0 left-0 right-0 w-[calc(100%-40px)] mx-auto border border-white/30 rounded-md backdrop-blur-sm text-white justify-between items-center px-6 py-3 hidden sm:flex">
         <img src="/assets/twitter.svg" alt="twitter" className="h-6 w-6" />
 
         {/* Right side - Email */}
         <div className="flex items-center gap-2">
           <img src="/assets/email.png" alt="email" className="h-6 w-6" />
-          <p className="text-sm sm:text-base">heartly.design2025@gmail.com</p>
+          <p className="text-sm sm:text-base font-light">heartly.design2025@gmail.com</p>
         </div>
       </footer>
-
-
 
     </section>
 

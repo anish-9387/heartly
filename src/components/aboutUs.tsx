@@ -22,14 +22,17 @@ export default function AboutUs() {
       </div>
 
       {/* text block */}
-      <div className="text-base sm:text-2xl max-w-full sm:max-w-[40rem] mt-10 sm:mt-[-24rem] ml-6 sm:ml-[42rem]">
-        <p className="tracking-wide sm:tracking-widest leading-relaxed font-light text-right mr-10">
-          Heartly is a privacy-first platform for real human connection. We
-          enable anonymous, encrypted 1:1 voice and chat support—no accounts, no
-          tracking, no borders. Built on blockchain, trust and safety are woven
-          into every conversation.
-        </p>
+      <div className="absolute inset-0 w-full flex items-center justify-start sm:justify-end z-10 pt-10 sm:pt-0">
+        <div className="text-base sm:text-2xl max-w-full sm:max-w-[50rem] px-6 sm:px-10 mt-[16rem] sm:mt-0">
+          <p className="tracking-wide sm:tracking-widest leading-relaxed font-light text-right -mb-30">
+            Heartly is a privacy-first platform for real human connection.
+            We enable anonymous, encrypted 1:1 voice and chat support—no accounts,
+            no tracking, no borders. Built on blockchain, trust and safety are
+            woven into every conversation.
+          </p>
+        </div>
       </div>
+
     </section>
   );
 }

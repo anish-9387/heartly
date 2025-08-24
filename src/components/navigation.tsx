@@ -30,14 +30,20 @@ export default function Navigation() {
       </div>
 
       {/* Hologram Button */}
-      <button className="relative backdrop-blur-3xl inline-flex items-center justify-center w-[9rem] h-[3rem] rounded-full border border-white/25 text-white font-bold text-sm sm:text-base overflow-hidden cursor-pointer transition-transform duration-200 hover:shadow-[0_0_0_1px_rgba(255,255,255,.25)_inset,0_8px_30px_rgba(0,0,0,.4),0_0_40px_rgba(0,234,255,.25)] active:translate-y-px active:scale-95 isolate bg-white/10">
+      <button className="relative backdrop-blur-2xl inline-flex items-center justify-center w-[9rem] h-[3rem] rounded-full border border-white/10 text-white font-semibold text-sm sm:text-base overflow-hidden cursor-pointer transition-transform duration-200 hover:shadow-[0_0_25px_rgba(0,200,255,0.4),0_0_50px_rgba(120,0,255,0.25)] active:translate-y-px active:scale-95 isolate bg-black/40">
+        {/* Holographic overlay */}
         <span
-          className="absolute inset-0 w-full h-full opacity-70 z-0 bg-center bg-cover"
+          className="absolute inset-0 w-full h-full opacity-45 z-0 bg-center bg-cover"
           style={{ backgroundImage: "url('/assets/hologram.svg')" }}
         />
-        <span className="absolute top-[-120%] left-[-40%] w-[200%] h-[340%] rotate-[18deg] mix-blend-screen animate-glossSweep z-20 pointer-events-none [background:linear-gradient(to_right,rgba(255,255,255,0)_0%,rgba(255,255,255,.35)_12%,rgba(255,255,255,0)_28%)]" />
-        <span className="relative z-30">Launch dApp</span>
+
+        {/* Gloss sweep effect */}
+        <span className="absolute top-[-120%] left-[-40%] w-[200%] h-[340%] rotate-[18deg] mix-blend-screen animate-glossSweep z-20 pointer-events-none [background:linear-gradient(to_right,rgba(255,255,255,0)_0%,rgba(255,255,255,.35)_15%,rgba(255,255,255,0)_30%)]" />
+
+        {/* Button Text */}
+        <span className="relative z-30 drop-shadow-md">Launch dApp</span>
       </button>
+
 
       {/* Mobile menu drawer */}
       {isOpen && (

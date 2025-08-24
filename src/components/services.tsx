@@ -26,8 +26,8 @@ export default function Services() {
 
 
             {/* Cards */}
-            <div className="w-full max-w-7xl mx-auto p-4 z-20">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 justify-center items-stretch">
+            <div className="w-full max-w-7xl mx-auto p-3 z-20 mb-10 lg:-mt-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-25 justify-center items-stretch">
 
                     {/* Card 1 */}
                     <div className="bg-[#a47aed20] border border-[#a47aed37] backdrop-blur-md
