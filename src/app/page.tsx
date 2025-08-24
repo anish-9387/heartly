@@ -1,4 +1,4 @@
-import img from "next/img";
+import Image from "next/image";
 import Navigation from "../components/navigation";
 import HomePage from "@/components/homepage";
 import AboutUs from "@/components/aboutUs";
