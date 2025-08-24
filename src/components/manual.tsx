@@ -30,7 +30,7 @@ export default function Manual() {
         </h2>
 
         {/* Steps container */}
-        <div className="w-full max-w-4xl sm:max-w-7xl backdrop-blur-md border border-purple-600/40 rounded-2xl shadow-lg p-4 sm:p-14 grid grid-cols-1 md:grid-cols-2 gap-y-6 sm:gap-y-12 gap-x-6 sm:gap-x-12 relative z-10">
+        <div className="w-full max-w-4xl sm:max-w-7xl backdrop-blur-md border border-purple-600/40 rounded-2xl shadow-lg p-4 sm:p-14 grid grid-cols-1 md:grid-cols-3 gap-y-6 sm:gap-y-12 gap-x-6 sm:gap-x-12 relative z-10">
           {/* Step 1 */}
           <div className="flex items-center gap-4 sm:gap-5">
             <img src="/assets/1.svg" alt="Step 1" className="w-12 h-12 sm:w-20 sm:h-20" />

@@ -19,6 +19,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,8 +32,18 @@ body {
 }
 
 @keyframes glossSweep {
-  0%   { transform: rotate(18deg) translateX(-10%); opacity: 0.55; }
-  50%  { transform: rotate(18deg) translateX(10%);  opacity: 0.85; }
-  100% { transform: rotate(18deg) translateX(-10%); opacity: 0.55; }
-}
+  0% {
+    transform: rotate(18deg) translateX(-10%);
+    opacity: 0.55;
+  }
 
+  50% {
+    transform: rotate(18deg) translateX(10%);
+    opacity: 0.85;
+  }
+
+  100% {
+    transform: rotate(18deg) translateX(-10%);
+    opacity: 0.55;
+  }
+}
