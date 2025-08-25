@@ -82,7 +82,7 @@ export default function Manual() {
       </section>
 
       {/* Members Section */}
-      <section className="relative w-full flex flex-col items-center justify-center px-6 py-12 sm:py-16">
+      <section className="relative w-full mb-10 flex flex-col items-center justify-center px-6 py-12 sm:py-16">
         <div className="mb-8 sm:mb-12 text-center relative z-10">
           <p className="text-2xl sm:text-4xl md:text-6xl font-bold leading-snug">
             Companies our team <br /> members are from
