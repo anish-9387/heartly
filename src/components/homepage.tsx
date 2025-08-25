@@ -33,13 +33,13 @@ export default function HomePage() {
         />
       </div>
 
-      <footer className="absolute bottom-0 left-0 right-0 w-[calc(100%-40px)] mx-auto border border-white/30 rounded-md backdrop-blur-sm text-white justify-between items-center px-6 py-3 hidden sm:flex">
+      <footer className="z-30 fixed bottom-0 left-0 right-0 w-[calc(100%-40px)] mx-auto mb-6 border border-white/30 rounded-md backdrop-blur-sm text-white justify-between items-center px-6 py-3 hidden sm:flex">
         <img src="/assets/optimized/twitter.svg" alt="twitter" className="h-6 w-6" />
 
         {/* Right side - Email */}
         <div className="flex items-center gap-2">
           <img src="/assets/email.png" alt="email" className="h-6 w-6" />
-          <p className="text-sm sm:text-base font-light">heartly.design2025@gmail.com</p>
+          <p className="text-sm sm:text-base font-extralight">heartly.design2025@gmail.com</p>
         </div>
       </footer>
 
