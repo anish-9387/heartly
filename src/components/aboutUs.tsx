@@ -15,7 +15,7 @@ export default function AboutUs() {
         />
 
         <img
-          src="/assets/aboutUsLine.svg"
+          src="/assets/optimized/aboutUsLine.svg"
           alt="curve line"
           className="absolute top-0 left-0 w-full"
         />

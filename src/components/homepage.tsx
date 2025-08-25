@@ -4,7 +4,7 @@ export default function HomePage() {
       {/* Heart Logo */}
       <div className="z-20 w-[12rem] sm:w-[14rem] md:w-[22rem] lg:w-[26rem] mx-auto -mt-10 sm:-mt-14 md:-mt-20 lg:-mt-75 flex justify-center lg:-mb-14">
         <img
-          src="/assets/heartlyicon.svg"
+          src="/assets/optimized/heartlyicon.svg"
           alt="logo"
           className="w-full h-auto"
         />
@@ -27,14 +27,14 @@ export default function HomePage() {
       {/* Bottom Wave - It's as svg for now. Convert to code and then add rolling wheel on it also. */}
       <div className="absolute left-0 w-full bottom-8 sm:bottom-4 md:bottom-0">
         <img
-          src="/assets/curveline_1.svg"
+          src="/assets/optimized/curveline_1.svg"
           alt="wave decoration"
           className="w-full h-auto backdrop-blur-3xl"
         />
       </div>
 
       <footer className="absolute bottom-0 left-0 right-0 w-[calc(100%-40px)] mx-auto border border-white/30 rounded-md backdrop-blur-sm text-white justify-between items-center px-6 py-3 hidden sm:flex">
-        <img src="/assets/twitter.svg" alt="twitter" className="h-6 w-6" />
+        <img src="/assets/optimized/twitter.svg" alt="twitter" className="h-6 w-6" />
 
         {/* Right side - Email */}
         <div className="flex items-center gap-2">

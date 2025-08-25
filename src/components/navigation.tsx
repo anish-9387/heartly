@@ -34,7 +34,7 @@ export default function Navigation() {
         {/* Holographic overlay */}
         <span
           className="absolute inset-0 w-full h-full opacity-45 z-0 bg-center bg-cover"
-          style={{ backgroundImage: "url('/assets/hologram.svg')" }}
+          style={{ backgroundImage: "url('/assets/optimized/hologram.svg')" }}
         />
 
         {/* Gloss sweep effect */}

@@ -21,7 +21,7 @@ export default function Manual() {
           The{" "}
           <span className="text-white text-4xl sm:text-9xl">
             <img
-              src="/assets/heartlyText.svg"
+              src="/assets/optimized/heartlyText.svg"
               alt="Heartly Logo"
               className="inline-block h-14 sm:h-28 align-middle translate-y-3 sm:translate-y-6"
             />
@@ -33,7 +33,7 @@ export default function Manual() {
         <div className="w-full max-w-4xl sm:max-w-7xl backdrop-blur-md border border-purple-600/40 rounded-2xl shadow-lg p-4 sm:p-14 grid grid-cols-1 md:grid-cols-3 gap-y-6 sm:gap-y-12 gap-x-6 sm:gap-x-12 relative z-10">
           {/* Step 1 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/1.svg" alt="Step 1" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/1.svg" alt="Step 1" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">
               Click on the “{" "}
               <img
@@ -47,13 +47,13 @@ export default function Manual() {
 
           {/* Step 2 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/2.svg" alt="Step 2" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/2.svg" alt="Step 2" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">Connect the wallet to the platform</p>
           </div>
 
           {/* Step 3 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/3.svg" alt="Step 3" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/3.svg" alt="Step 3" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">
               Select an option between “Chat / Voice / Video Call”
             </p>
@@ -61,13 +61,13 @@ export default function Manual() {
 
           {/* Step 4 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/4.svg" alt="Step 4" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/4.svg" alt="Step 4" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">Lock in your budget for the talk</p>
           </div>
 
           {/* Step 5 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/5.svg" alt="Step 5" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/5.svg" alt="Step 5" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">
               Hit the “Start Connecting” button to get matched
             </p>
@@ -75,7 +75,7 @@ export default function Manual() {
 
           {/* Step 6 */}
           <div className="flex items-center gap-4 sm:gap-5">
-            <img src="/assets/6.svg" alt="Step 6" className="w-12 h-12 sm:w-20 sm:h-20" />
+            <img src="/assets/optimized/6.svg" alt="Step 6" className="w-12 h-12 sm:w-20 sm:h-20" />
             <p className="text-sm sm:text-xl">Dive in and enjoy the conversation!</p>
           </div>
         </div>
