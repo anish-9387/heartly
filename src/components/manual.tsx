@@ -1,13 +1,65 @@
 export default function Manual() {
   return (
     <div className="relative w-full text-white overflow-hidden">
-
-      <div className="absolute w-full mt-40 sm:mt-8">
-        <img
-          src="/assets/manualCurve2.png"
-          alt="curve shadow"
-          className="w-full relative translate-y-4 sm:translate-y-10 translate-x-[1rem] sm:translate-x-[2rem]"
+      {/* Animated Bubble Path */}
+      <svg
+        className="absolute top-0 left-0 w-full h-full pointer-events-none z-0"
+        viewBox="0 0 1710 1139"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1853.5 2.5C931.499 378 195.999 608.5 29.9988 837.5C-102.801 1020.7 291.832 1112.83 447.499 1136V990.5"
+          stroke="url(#paint0_linear_145_306)"
+          strokeWidth="5"
         />
+        <circle
+          id="movingBubble"
+          r="28"
+          fill="url(#bubbleGradient)"
+          fillOpacity="0.3"
+          stroke="#9333ea"
+          strokeWidth="2"
+          strokeOpacity="0.9"
+          filter="url(#bubbleGlow)"
+        >
+          <animateMotion
+            dur="10s"
+            repeatCount="indefinite"
+            keyTimes="0;1"
+            keySplines="0.42 0 0.58 1"
+            calcMode="spline"
+          >
+            {/* Reverse direction (right → left) */}
+            <mpath href="#manualPath" />
+          </animateMotion>
+        </circle>
+
+        <defs>
+          <linearGradient
+            id="paint0_linear_145_306"
+            x1="91.3355"
+            y1="186.977"
+            x2="1673.07"
+            y2="159.621"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stopColor="#1942B2" />
+            <stop offset="1" stopColor="#BC189B" />
+          </linearGradient>
+        </defs>
+
+        {/* Invisible path for animateMotion */}
+        <path
+          id="manualPath"
+          d="M1853.5 2.5C931.499 378 195.999 608.5 29.9988 837.5C-102.801 1020.7 291.832 1112.83 447.499 1136V990.5"
+          fill="none"
+          stroke="none"
+        />
+      </svg>
+
+      {/* Curves */}
+      <div className="absolute w-full mt-40 sm:mt-8">
         <img
           src="/assets/manualCurve1.png"
           alt="curve line"
